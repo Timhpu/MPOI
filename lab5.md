@@ -11,11 +11,11 @@ download.file(url, filename, mode='wb')
 data <- read_excel(filename, 1)
 ```
 New names:
-`` -> ...1
-`` -> ...2
-`` -> ...3
-`` -> ...4
-`` -> ...5
+*`` -> ...1
+*`` -> ...2
+*`` -> ...3
+*`` -> ...4
+*`` -> ...5
 ...
 ```
 head(data, n=6)
