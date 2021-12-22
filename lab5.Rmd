@@ -1,0 +1,13 @@
+**Lab 5**
+
+```r
+install.packages('readxl')
+library(readxl)
+
+url = 'https://data.gov.ua/dataset/017ce04c-5a83-4832-b116-2b9bafca5cfa/resource/7e965fe4-8abe-477c-b3df-a05bbe2c96d7/download/list.xlsx'
+filename = 'list.xlsx'
+
+download.file(url, filename, mode='wb')
+data <- read_excel(filename, 1)
+head(data, n=6)
+```
