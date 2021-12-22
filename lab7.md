@@ -13,3 +13,6 @@ data <- xmlToDataFrame(xpathApply(data, '/response/row/row'))
 
 length(which(data$zipcode == '21231'))
 ```
+[1] 127
+```
+```
